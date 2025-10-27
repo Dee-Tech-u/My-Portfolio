@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+
+@theme{
+  --breakpoint-custom-sm: 540px;
+  --breakpoint-custom-md: 768px;
+}
+
+@layer base{
+  ::placeholder{
+    @apply text-[#fff] text-[12px] px-2 py-1
+  }
+}

@@ -8,7 +8,7 @@ const Provide = () => {
   return (
     <>
     <div className='text-white pt-10 px-10'>
-      <div className='flex flex-col md:flex-row justify-center items-center'> 
+      <div className='flex flex-col md:flex-row justify-center'> 
         <div className='w-100 px-5'>
           <WiDirectionDownRight className='text-2xl'/>
           <p className='text-[12px] text-orange-500 font-semibold'>services i provide</p>

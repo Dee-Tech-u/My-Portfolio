@@ -3,7 +3,7 @@ import React from 'react'
 const Project = () => {
   return (
     <>
-    <div className=' text-[#fff]'>
+    <div className=' text-[#fff] w-full'>
       <div className=''>
         <div className='bg-black text-center pb-3'>
           <h1 className='text-orange-500 text-[12px]'>What i Created</h1>

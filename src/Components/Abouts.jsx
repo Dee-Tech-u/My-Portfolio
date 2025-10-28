@@ -6,7 +6,7 @@ import { FaPhoneAlt } from 'react-icons/fa'
 const About = () => {
   return (
     <>
-    <div className='text-white p-15 bg-gradient-to-tr from-black from-2% to-gray-950'>
+    <div className='text-white p-15 bg-gradient-to-tr from-black from-2% to-gray-950 w-full'>
       <div className='flex flex-col custom-md:flex-row justify-center items-center'>
         <div className='w-100 pb-6'>
           <div data-Aos="fade-down" data-Aos-delay="200">

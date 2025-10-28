@@ -19,7 +19,7 @@ const Hero = () => {
         }, []);
   return (
     <>
-      <div className='flex justify-center items-center text-[#fff]'>
+      <div className='flex justify-center items-center text-[#fff] w-full'>
         <div className='flex justify-center items-center flex-col custom-sm:flex-row px-10 gap-5 w-200'>
           <div data-Aos="fade-right" data-Aos-delay="200" className='w-100 px-10'>
             <h1 className='text-2xl font-bold'>I'm Dee Prince, a <br /><span className='text-yellow-600'> Front-end Developer</span></h1>

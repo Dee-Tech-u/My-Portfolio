@@ -12,7 +12,7 @@ const Contacts = () => {
   }
   return (
     <>
-    <div className='min-h-screen bg-gray-950'>
+    <div className='min-h-screen bg-gray-950 w-full'>
       <div className='min-h-screen bg-gradient-to-t from-black from-2% to-amber-950'>
         <div className='flex flex-col lg:flex-row justify-center items-center gap-8 text-[#fff]'>
           <div data-Aos="zoom-in" data-Aos-delay="200" className='w-100 px-5'>
@@ -38,7 +38,7 @@ const Contacts = () => {
           </div>
         </div>
         <form onSubmit={handleSubmit}>
-          <div data-Aos="zoom-in" data-Aos-delay="200" className='bg-amber-950 border-1 border-amber-950 w-100 rounded-xl'>
+          <div data-Aos="zoom-in" data-Aos-delay="200" className='bg-amber-950 border-1 border-amber-950 w-90 rounded-xl'>
           <p className='text-[12px] px-9 py-5'>Fill out the form below to connect with me. I'll get back to you soon to discuss your project or answer any question</p>
           <div className='w-80 m-auto'>
             <div className='flex pb-3'>
@@ -64,7 +64,7 @@ const Contacts = () => {
       />
             <input type="number" id='number' name='number' placeholder='Phone Number' className='w-40 h-8 mr-2 border-1 border-amber-900 rounded-sm outline-0'/>
           </div>
-          <textarea name="message" id="Message" cols="42" rows="3" placeholder='Message' className='border-1 border-amber-900 rounded-sm mt-4 outline-0'></textarea>
+          <textarea name="message" id="Message" cols="40" rows="3" placeholder='Message' className='border-1 border-amber-900 rounded-sm mt-4 outline-0'></textarea>
           <ValidationError 
             prefix="Message" 
             field="message"

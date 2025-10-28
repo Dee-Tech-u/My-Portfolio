@@ -44,12 +44,13 @@ const Navbar = () => {
       </Link>
 
     <div className='custom-md:hidden'>
-      <button onClick={toggleMenu} className=' p-2 rounded-md text-gray-400 hover:text-white hover:scale-110 transition duration-300 ease-linear cursor-pointer focus:outline-none'>
+      <button onClick={toggleMenu} className=' p-10 rounded-md text-gray-400 hover:text-white hover:scale-110 transition duration-300 ease-linear cursor-pointer focus:outline-none'>
         {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
       </button>
     </div>
     </div>
     </div>
+
     <div className={`fixed top-0 left-0 h-full w-64 bg-gradient-to-br from-black from-2% to-amber-800 text-[#fff] transform ${isOpen ? 'translate-x-0' : '-translate-x-full' } transition-transform duration-300 ease-in-out custom-md:hidden`}>
       <div className='flex-shrink-0'>
            <Link to="/" className='px-4'>

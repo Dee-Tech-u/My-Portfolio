@@ -7,7 +7,7 @@ import { MdApps } from 'react-icons/md'
 const Provide = () => {
   return (
     <>
-    <div className='text-white pt-10 px-10'>
+    <div className='text-green-800 pt-10 px-10'>
       <div className='flex flex-col md:flex-row justify-center'> 
         <div className='w-100 px-5'>
           <WiDirectionDownRight className='text-2xl'/>

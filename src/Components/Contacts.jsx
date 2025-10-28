@@ -64,7 +64,7 @@ const Contacts = () => {
       />
             <input type="number" id='number' name='number' placeholder='Phone Number' className='w-40 h-8 mr-2 border-1 border-amber-900 rounded-sm outline-0'/>
           </div>
-          <textarea name="message" id="Message" cols="40" rows="3" placeholder='Message' className='border-1 border-amber-900 rounded-sm mt-4 outline-0'></textarea>
+          <textarea name="message" id="Message" cols="34" rows="3" placeholder='Message' className='border-1 border-amber-900 rounded-sm mt-4 outline-0'></textarea>
           <ValidationError 
             prefix="Message" 
             field="message"

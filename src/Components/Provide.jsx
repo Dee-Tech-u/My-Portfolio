@@ -8,8 +8,8 @@ import { Link } from 'react-router-dom';
 const Provide = () => {
   return (
     <>
-    <div className='text-green-800 pt-10 px-10'>
-      <div className='flex '> 
+    <div className='text-[#fff] pt-10 px-10'>
+      <div className='flex gap-4'> 
         <div className='w-100'>
           <WiDirectionDownRight className='text-2xl'/>
           <p className='text-[12px] text-orange-500 font-semibold'>services i provide</p>

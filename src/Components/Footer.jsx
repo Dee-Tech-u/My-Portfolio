@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
     <>
-    <div className='text-white py-15 px-10 bg-gradient-to-br from-black from-2% to-gray-950'>
+    <div className='text-white py-15 px-5 bg-gradient-to-br from-black from-2% to-gray-950'>
       <div className='text-center'>
         <h1 data-Aos="zoom-in" data-Aos-delay="1500" className='text-2xl text-orange-500 md:text-5xl lg:text-6xl'>READY TO WORK WITH US</h1>
         <p className='text-[10px] pt-1 pb-5'>Let's collaborate to turn your vission into beautiful, functional designs that make an impart</p>

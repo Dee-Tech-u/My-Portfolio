@@ -9,12 +9,12 @@ const Provide = () => {
     <>
     <div className='text-white pt-10 px-10'>
       <div className='flex flex-col md:flex-row justify-center items-center'> 
-        <div className='w-100'>
+        <div className='w-100 px-5'>
           <WiDirectionDownRight className='text-2xl'/>
           <p className='text-[12px] text-orange-500 font-semibold'>services i provide</p>
           <h1 className='text-2xl'>Innovative solutions in design and development</h1>
         </div>
-      <div className='text-[12px] w-100 py-5'>
+      <div className='text-[12px] w-100 py-5 px-5'>
         <p>I work businesses to sharp their vision into meaningful digital experience that inspire and perform. From concept to lauch, i focus on creating products that are both beautiful and built to last</p>
         <button type='submit' className='bg-orange-500 text-sm mt-2 mr-3 w-30 h-7 rounded-full hover:bg-amber-700 transition duration-300 ease-linear cursor-pointer'>View All Services</button>
       </div>

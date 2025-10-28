@@ -13,7 +13,7 @@ const About = () => {
             <img src="Pic.png" alt="picture" className='size-30 m-auto rounded-full border-4 border-orange-500 '/>
           </div>
         </div>
-        <div data-Aos="fade-up" data-Aos-delay="200" className='w-100'>
+        <div data-Aos="fade-up" data-Aos-delay="200" className='w-100 px-10'>
           <WiDirectionDownRight className='text-orange-500 text-2xl'/>
           <h1 className='text-orange-500 text-[12px]'>About Me</h1>
           <p className='text-3xl '>Who is Dee Prince?</p>

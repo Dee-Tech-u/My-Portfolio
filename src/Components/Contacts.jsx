@@ -15,7 +15,7 @@ const Contacts = () => {
     <div className='min-h-screen bg-gray-950'>
       <div className='min-h-screen bg-gradient-to-t from-black from-2% to-amber-950'>
         <div className='flex flex-col lg:flex-row justify-center items-center gap-8 text-[#fff]'>
-          <div data-Aos="zoom-in" data-Aos-delay="200" className='w-100'>
+          <div data-Aos="zoom-in" data-Aos-delay="200" className='w-100 px-3'>
           <WiDirectionDownRight className='text-orange-500 text-2xl'/>
           <p className='text-orange-500 text-[12px]'>Contact Us</p>
           <h1 className='text-4xl'>Get in touch to discuss your next project!</h1>

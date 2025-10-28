@@ -7,13 +7,13 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
     <>
-    <div className='text-white p-15 bg-gradient-to-br from-black from-2% to-gray-950 w-full'>
+    <div className='text-white py-15 px-5 bg-gradient-to-br from-black from-2% to-gray-950'>
       <div className='text-center'>
         <h1 data-Aos="zoom-in" data-Aos-delay="1500" className='text-2xl text-orange-500 md:text-5xl lg:text-6xl'>READY TO WORK WITH US</h1>
         <p className='text-[10px] pt-1 pb-5'>Let's collaborate to turn your vission into beautiful, functional designs that make an impart</p>
       </div>
       <div className='flex justify-between items-center py-6 border-t-1 border-b-1 border-gray-800 '>
-        <div className='w-40 lg:w-100 px-1'>
+        <div className='w-40 lg:w-100'>
           <SiLintcode className='text-orange-500 text-xl'/>
           <p className='text-[10px] font-semibold text-gray-300 '>I develop responsive, user-friendly, user-centerd designs that turn ideas into reality. With passion for innovation and developing, i help brands and individuals create experience that truly connects</p>
         </div>
